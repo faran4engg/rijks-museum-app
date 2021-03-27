@@ -1,4 +1,4 @@
-# Rijks Museum App"
+# Rijks Museum App
 
 > Designed and implemented a production ready application for displaying image of thumbnails of artists. Het Rijksmuseum in Amsterdam is the most prominent museum of The Netherlands.
 
