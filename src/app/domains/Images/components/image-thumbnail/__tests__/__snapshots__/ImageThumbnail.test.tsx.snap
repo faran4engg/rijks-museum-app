@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageThumbnail should render 1`] = `
+<div
+  className="flex flex-col items-center justify-center img-grid-item w-full"
+>
+  <img
+    alt="painting-art"
+    className="w-full bg-gray-300 bg-center bg-auto rounded-lg shadow-md"
+    loading="lazy"
+    onLoad={[Function]}
+    src="placeholder.gif"
+  />
+</div>
+`;

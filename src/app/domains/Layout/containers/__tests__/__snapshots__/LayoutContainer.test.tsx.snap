@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LayoutContainer /> should render and match the snapshot 1`] = `
+<div
+  className="flex h-screen bg-light-mode-content-bg dark:bg-dark-mode-content-bg text-gray-500 dark:text-gray-200"
+>
+  <NavSidebar
+    handleIsSidebarOpen={[Function]}
+    isSidebarOpen={false}
+  />
+  <div
+    className="flex flex-col flex-1 w-full"
+  >
+    <Header
+      handleIsSidebarOpen={[Function]}
+    />
+    <Content>
+      <Switch>
+        <Route
+          exact={true}
+          path="/home"
+          render={[Function]}
+        />
+        <Redirect
+          exact={true}
+          from="/"
+          to="/home"
+        />
+        <Route
+          component={[Function]}
+        />
+      </Switch>
+    </Content>
+  </div>
+</div>
+`;

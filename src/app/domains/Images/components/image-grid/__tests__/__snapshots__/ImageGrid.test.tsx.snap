@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageGrid should render CardSkeleton when loading 1`] = `"CardSkeleton"`;
+
+exports[`ImageGrid should render NotFoundPage when its not loading and no image data received 1`] = `
+Array [
+  <div
+    className="flex items-center justify-center max-w-sm mx-auto mt-8"
+  >
+    <NotFoundPage />
+  </div>,
+  <div
+    className="masonry-with-columns"
+  />,
+]
+`;
+
+exports[`ImageGrid should render images 1`] = `
+<div
+  className="masonry-with-columns"
+>
+  <ImageThumbnail
+    authorName="Rembrandt van Rijn"
+    title="Isaak en Rebekka, bekend als ‘Het Joodse bruidje’"
+    url="https://lh3.googleusercontent.com/mAyAjvYjIeAIlByhJx1Huctgeb58y7519XYP38oL1FXarhVlcXW7kxuwayOCFdnwtOp6B6F0HJmmws-Ceo5b_pNSSQs=s0"
+  />
+  <ImageThumbnail
+    authorName="Rembrandt van Rijn"
+    title="De Nachtwacht"
+    url="https://lh3.googleusercontent.com/0cgLYKx0RS2R0RkCr9z29qGHmQMIchfN3Mqpvfx9msLqxVdAiNJxNN9le3GnFF6kUrPG84DWNFBqLXFM7OOqSZFJsVnvxrDu-PlK3ars=s0"
+  />
+  <ImageThumbnail
+    authorName="Rembrandt van Rijn"
+    title="Portret van een vrouw, mogelijk Maria Trip"
+    url="https://lh3.googleusercontent.com/AyiKhdEWJ7XmtPXQbRg_kWqKn6mCV07bsuUB01hJHjVVP-ZQFmzjTWt7JIWiQFZbb9l5tKFhVOspmco4lMwqwWImfgg=s0"
+  />
+  <ImageThumbnail
+    authorName="Rembrandt van Rijn"
+    title="Zelfportret als de apostel Paulus"
+    url="https://lh3.googleusercontent.com/NrCcfeY0r2F3M2hIQe5SLDRofR2tVzeOH18VjflOYGj88v4clb4v2H_VgCZR4nJhYsxxH9ATzfkL2tRqOWEK5-gPVEE=s0"
+  />
+  <ImageThumbnail
+    authorName="Rembrandt van Rijn"
+    title="De waardijns van het Amsterdamse lakenbereidersgilde, bekend als ‘De Staalmeesters’"
+    url="https://lh3.googleusercontent.com/gShVRyvLLbwVB8jeIPghCXgr96wxTHaM4zqfmxIWRsUpMhMn38PwuUU13o1mXQzLMt5HFqX761u8Tgo4L_JG1XLATvw=s0"
+  />
+  <ImageThumbnail
+    authorName="Rembrandt van Rijn"
+    title="Zelfportret"
+    url="https://lh3.googleusercontent.com/7qzT0pbclLB7y3fdS1GxzMnV7m3gD3gWnhlquhFaJSn6gNOvMmTUAX3wVlTzhMXIs8kM9IH8AsjHNVTs8em3XQI6uMY=s0"
+  />
+  <ImageThumbnail
+    authorName="Rembrandt van Rijn"
+    title="Oopjen Coppit"
+    url="https://lh3.googleusercontent.com/ib8SNTK2Qk-z64UYuu-_mI3FswMpYmmNU871wu5diDEPyjxmYJcNI4qRtqxlvKkVnrXTAxAFkuHX7DAN9ZwPFzS5fGE=s0"
+  />
+  <ImageThumbnail
+    authorName="Rembrandt van Rijn"
+    title="Marten Soolmans"
+    url="https://lh3.googleusercontent.com/hDN8_JS4BbbksBXkxIDUldJvooejHBfQjgD3b_Jr73HjVOAs8thpnvCJA3WUtQFxlbjx-QB1-IyqhgEiM4dFLFk1Sg=s0"
+  />
+  <ImageThumbnail
+    authorName="Rembrandt van Rijn"
+    title="Salome ontvangt het hoofd van Johannes de Doper"
+    url="https://lh3.googleusercontent.com/sB8bcd5NQmryNNIZ3-xb27VMtsohrhjMxm3HZMX-ajffrWUyKh7WoBzOik5k3rc-8XNzmDrpNfyErwrsbN2bs2o63EQ=s0"
+  />
+  <ImageThumbnail
+    authorName="Rembrandt van Rijn"
+    title="Portret van Haesje Jacobsdr van Cleyburg"
+    url="https://lh3.googleusercontent.com/8IJF23RpZ5Jjukz6GHkAvagBGK4X5ZRJygm6DMvR7a0eQQWc_NoPzDZmf2UugJ-2NUxgFcJ2tx0c26K8EZvzkQBlra3o=s0"
+  />
+</div>
+`;

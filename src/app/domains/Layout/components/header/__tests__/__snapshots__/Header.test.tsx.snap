@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render and match the snapshot 1`] = `
+<header
+  className="z-40 py-2 shadow-md lg:shadow-none shadow-bottom bg-light-mode dark:bg-dark-mode"
+>
+  <div
+    className="container flex items-center justify-between h-full px-3 mx-auto text-theme-color-light dark:text-theme-color-dark"
+  >
+    <button
+      aria-label="Menu"
+      className="p-1 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-green-200"
+      onClick={[MockFunction]}
+    >
+      <SvgIcon
+        className="w-6 h-6"
+        icon="MenuIcon"
+      />
+    </button>
+    <div
+      className="flex justify-center flex-1"
+    >
+      <NavLink
+        className="block lg:hidden"
+        to="/home"
+      >
+        <SvgIcon
+          className="w-28 h-10"
+          icon="QardioLogoIcon"
+        />
+      </NavLink>
+    </div>
+    <ul
+      className="flex items-center flex-shrink-0 space-x-6"
+    >
+      <li
+        className="relative text-theme-color-light dark:text-theme-color-dark"
+      >
+        <button
+          aria-haspopup="true"
+          aria-label="Notifications"
+          className="relative align-middle rounded-md focus:outline-none"
+          onClick={[Function]}
+        >
+          <span
+            className="w-5 h-5 mx-auto animate-spin"
+          >
+            🌚
+          </span>
+          <span
+            className="absolute top-0 right-0 inline-block w-3 h-3 transform translate-x-1 -translate-y-1 bg-red-600 border-2 border-white rounded-full animate-ping dark:border-gray-800"
+          />
+        </button>
+      </li>
+    </ul>
+  </div>
+</header>
+`;
+
+exports[`<Header /> toggleDark should set dark mode when clicked 1`] = `
+<header
+  className="z-40 py-2 shadow-md lg:shadow-none shadow-bottom bg-light-mode dark:bg-dark-mode"
+>
+  <div
+    className="container flex items-center justify-between h-full px-3 mx-auto text-theme-color-light dark:text-theme-color-dark"
+  >
+    <button
+      aria-label="Menu"
+      className="p-1 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-green-200"
+      onClick={[MockFunction]}
+    >
+      <svg
+        aria-hidden="true"
+        className="w-6 h-6"
+      >
+        menu.svg
+      </svg>
+    </button>
+    <div
+      className="flex justify-center flex-1"
+    >
+      &lt;NavLink /&gt;
+    </div>
+    <ul
+      className="flex items-center flex-shrink-0 space-x-6"
+    >
+      <li
+        className="relative text-theme-color-light dark:text-theme-color-dark"
+      >
+        <button
+          aria-haspopup="true"
+          aria-label="Notifications"
+          className="relative align-middle rounded-md focus:outline-none"
+          onClick={[Function]}
+        >
+          <span
+            className="w-5 h-5 mx-auto animate-spin"
+          >
+            💡
+          </span>
+          <span
+            className="absolute top-0 right-0 inline-block w-3 h-3 transform translate-x-1 -translate-y-1 bg-red-600 border-2 border-white rounded-full animate-ping dark:border-gray-800"
+          />
+        </button>
+      </li>
+    </ul>
+  </div>
+</header>
+`;
+
+exports[`<Header /> toggleDark should set light mode when clicked 1`] = `
+<header
+  className="z-40 py-2 shadow-md lg:shadow-none shadow-bottom bg-light-mode dark:bg-dark-mode"
+>
+  <div
+    className="container flex items-center justify-between h-full px-3 mx-auto text-theme-color-light dark:text-theme-color-dark"
+  >
+    <button
+      aria-label="Menu"
+      className="p-1 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-green-200"
+      onClick={[MockFunction]}
+    >
+      <svg
+        aria-hidden="true"
+        className="w-6 h-6"
+      >
+        menu.svg
+      </svg>
+    </button>
+    <div
+      className="flex justify-center flex-1"
+    >
+      &lt;NavLink /&gt;
+    </div>
+    <ul
+      className="flex items-center flex-shrink-0 space-x-6"
+    >
+      <li
+        className="relative text-theme-color-light dark:text-theme-color-dark"
+      >
+        <button
+          aria-haspopup="true"
+          aria-label="Notifications"
+          className="relative align-middle rounded-md focus:outline-none"
+          onClick={[Function]}
+        >
+          <span
+            className="w-5 h-5 mx-auto animate-spin"
+          >
+            🌚
+          </span>
+          <span
+            className="absolute top-0 right-0 inline-block w-3 h-3 transform translate-x-1 -translate-y-1 bg-red-600 border-2 border-white rounded-full animate-ping dark:border-gray-800"
+          />
+        </button>
+      </li>
+    </ul>
+  </div>
+</header>
+`;

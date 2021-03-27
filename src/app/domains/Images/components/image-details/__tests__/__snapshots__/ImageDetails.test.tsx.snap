@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageDetails should render 1`] = `
+<div
+  className="w-48 mx-auto mb-4 -mt-6 lg:-mt-10 overflow-hidden rounded-lg shadow-lg lg:w-56"
+  id="img-details"
+>
+  <h3
+    className="py-1 lg:py-2 text-xs capitalize font-bold tracking-wide text-center text-gray-800 bg-white dark:bg-gray-800 dark:text-white "
+  >
+    <span>
+      🎨 
+    </span>
+    faran
+  </h3>
+  <div
+    className="flex items-center justify-center px-2 py-1 lg:py-2 bg-gray-200 dark:bg-gray-700"
+  >
+    <span
+      className="text-xs font-bold text-center text-gray-800 dark:text-gray-200 line-clamp-1 hover:line-clamp-none"
+    >
+      <span>
+        📌 
+      </span>
+      my painting
+    </span>
+  </div>
+</div>
+`;
